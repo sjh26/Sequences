@@ -1,3 +1,7 @@
+project(Sequences)
+find_package(Slicer REQUIRED)
+include(${Slicer_USE_FILE})
+message(FATAL_ERROR "testing 1 2 3...")
 
 #-----------------------------------------------------------------------------
 set(MODULE_NAME MetafileImporter)

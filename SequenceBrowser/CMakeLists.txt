@@ -1,3 +1,6 @@
+project(Sequences)
+find_package(Slicer REQUIRED)
+include(${Slicer_USE_FILE})
 
 #-----------------------------------------------------------------------------
 set(MODULE_NAME SequenceBrowser)

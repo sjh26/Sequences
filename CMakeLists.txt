@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8.9)
+message(FATAL_ERROR "testing 3 2 1")
 
-project(Sequences)
+project(MultidimData)
 
 #-----------------------------------------------------------------------------
 set(EXTENSION_HOMEPAGE "http://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MultidimData")
